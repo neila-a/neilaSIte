@@ -7,7 +7,7 @@
     "build:spa": "valaxy build",
     "build:ssg": "valaxy build --ssg",
     "dev": "valaxy",
-    "rss": "valaxy rss",
+    "rss": "#valaxy rss",
     "serve": "vite preview"
   },
   "dependencies": {
