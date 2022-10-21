@@ -3,12 +3,14 @@
   "version": "0.11.1",
   "private": true,
   "scripts": {
-    "make": "npm run build&&git add .&&git commit -a -m 'a'&&git push github main",
+    "gitdo:nopush": "git add .&&git commit -a -m 'a'",
+    "gitdo": "npm run gitdo:nopush && git push github main",
+    "make": "npm run build&&npm run gitdo",
     "build": "npm run build:ssg && npm run rss",
     "build:spa": "valaxy build",
     "build:ssg": "valaxy build --ssg",
     "dev": "valaxy",
-    "rss": "#valaxy rss",
+    "rss": "valaxy rss",
     "serve": "vite preview"
   },
   "dependencies": {

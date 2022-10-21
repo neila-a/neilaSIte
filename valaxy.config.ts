@@ -138,21 +138,22 @@ export default defineConfig<ThemeConfig>({
       enable: true,
       title: 'neila',
     },
-    /*
+    
     pages: [
       {
-        name: '我的小伙伴们',
-        url: '/links/',
-        icon: 'i-ri-genderless-line',
-        color: 'dodgerblue',
-      },
+        name: '项目',
+        url: '/projects/',
+        icon: 'i-ri-todo-line',
+        color: 'black',
+      }
+      /*,
       {
         name: '喜欢的女孩子',
         url: '/girls/',
         icon: 'i-ri-women-line',
         color: 'hotpink',
-      },
-    ],*/
+      },*/
+    ],
 
     footer: {
       since: 2022,

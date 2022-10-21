@@ -3,6 +3,8 @@ title: Freenom的使用
 author: neila
 date: 2021-09-01 20:44:54
 tags:
+    - 搭建网站
+    - 笔记
 ---
 > Freenom是世界上唯一一家免费域名注册的地方——反正官网是这么说的
 
