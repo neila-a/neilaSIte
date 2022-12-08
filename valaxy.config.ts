@@ -1,49 +1,60 @@
-import { defineConfig } from 'valaxy'
-import type { ThemeConfig } from 'valaxy-theme-yun'
+import { defineConfig } from 'valaxy';
+import type { ThemeConfig } from 'valaxy-theme-yun';
+import { addonWaline } from 'valaxy-addon-waline';
 
 // add icons what you will need
 const safelist = [
-  'i-ri-home-line',
-]
+    'i-ri-home-line',
+];
 
 /**
  * User Config
  */
 export default defineConfig<ThemeConfig>({
-  lang: 'zh-CN',
-  title: 'neila',
-  author: {
-    name: 'neila',
-    email: "neila@neila.ga",
-    link: "",
-    avatar: "https://avatars.githubusercontent.com/u/78797625?v=4"
-  },
-  description: 'neila的小破站，由于年久失修，现在已经被鉴定为3级危站。',
-  social: [
-    {
-      name: 'RSS',
-      link: '/atom.xml',
-      icon: 'i-ri-rss-line',
-      color: 'orange',
-    },/*
+    // 启用评论
+    comment: {
+        enable: true
+    },
+    // 设置 valaxy-addon-waline 配置项
+    addons: [
+        addonWaline({
+            serverURL: 'https://walineapi.neila.ga',
+        }),
+    ],
+    lang: 'zh-CN',
+    title: 'neila',
+    author: {
+        name: 'neila',
+        email: "neila@neila.ga",
+        link: "",
+        avatar: "https://avatars.githubusercontent.com/u/78797625?v=4"
+    },
+    description: 'neila的小破站，由于年久失修，现在已经被鉴定为3级危站。',
+    social: [
+        {
+            name: 'RSS',
+            link: '/atom.xml',
+            icon: 'i-ri-rss-line',
+            color: 'orange',
+        },/*
     {
       name: 'QQ 群 1050458482',
       link: 'https://qm.qq.com/cgi-bin/qm/qr?k=kZJzggTTCf4SpvEQ8lXWoi5ZjhAx0ILZ&jump_from=webapi',
       icon: 'i-ri-qq-line',
       color: '#12B7F5',
     },*/
-    {
-      name: 'GitHub',
-      link: 'https://github.com/neila-a',
-      icon: 'i-ri-github-line',
-      color: '#6e5494',
-    },
-    {
-      name: '微博',
-      link: 'https://weibo.com/neilaaaa',
-      icon: 'i-ri-weibo-line',
-      color: '#E6162D',
-    },/*
+        {
+            name: 'GitHub',
+            link: 'https://github.com/neila-a',
+            icon: 'i-ri-github-line',
+            color: '#6e5494',
+        },
+        {
+            name: '微博',
+            link: 'https://weibo.com/neilaaaa',
+            icon: 'i-ri-weibo-line',
+            color: '#E6162D',
+        },/*
     {
       name: '豆瓣',
       link: 'https://www.douban.com/people/yunyoujun/',
@@ -56,18 +67,18 @@ export default defineConfig<ThemeConfig>({
       icon: 'i-ri-netease-cloud-music-line',
       color: '#C20C0C',
     },*/
-    {
-      name: '知乎',
-      link: 'https://www.zhihu.com/people/neila76/',
-      icon: 'i-ri-zhihu-line',
-      color: '#0084FF',
-    },
-    {
-      name: '哔哩哔哩',
-      link: 'https://space.bilibili.com/1479626105',
-      icon: 'i-ri-bilibili-line',
-      color: '#FF8EB3',
-    },/*
+        {
+            name: '知乎',
+            link: 'https://www.zhihu.com/people/neila-76/',
+            icon: 'i-ri-zhihu-line',
+            color: '#0084FF',
+        },
+        {
+            name: '哔哩哔哩',
+            link: 'https://space.bilibili.com/1479626105',
+            icon: 'i-ri-bilibili-line',
+            color: '#FF8EB3',
+        },/*
     {
       name: '微信公众号',
       link: 'https://cdn.yunyoujun.cn/img/about/white-qrcode-and-search.jpg',
@@ -80,36 +91,36 @@ export default defineConfig<ThemeConfig>({
       icon: 'i-ri-twitter-line',
       color: '#1da1f2',
     },*/
-    {
-      name: 'Telegram',
-      link: 'https://t.me/neila',
-      icon: 'i-ri-telegram-line',
-      color: '#0088CC',
+        {
+            name: 'Telegram',
+            link: 'https://t.me/neila',
+            icon: 'i-ri-telegram-line',
+            color: '#0088CC',
+        },
+        {
+            name: 'E-Mail',
+            link: 'mailto:neila@neila.ga',
+            icon: 'i-ri-mail-line',
+            color: '#8E71C1',
+        },
+        {
+            name: 'Travelling',
+            link: 'https://travellings.link',
+            icon: 'i-ri-train-line',
+            color: 'var(--va-c-text)',
+        },
+    ],
+
+    search: {
+        enable: true,
     },
-    {
-      name: 'E-Mail',
-      link: 'mailto:neila@neila.ga',
-      icon: 'i-ri-mail-line',
-      color: '#8E71C1',
-    }/*,
-    {
-      name: 'Travelling',
-      link: 'https://travellings.link',
-      icon: 'i-ri-train-line',
-      color: 'var(--va-c-text)',
-    },*/
-  ],
 
-  search: {
-    enable: true,
-  },
+    url: "https://neila.ga/",
 
-  url: "https://neila.ga/",
-
-  sponsor: {
-    enable: true,
-    title: '我很可爱，请给我钱！',
-    methods: [/*
+    sponsor: {
+        enable: true,
+        title: '我很可爱，请给我钱！',
+        methods: [/*
       {
         name: '支付宝',
         url: 'https://cdn.yunyoujun.cn/img/donate/alipay-qrcode.jpg',
@@ -128,41 +139,41 @@ export default defineConfig<ThemeConfig>({
         color: '#2DC100',
         icon: 'i-ri-wechat-pay-line',
       },*/
-    ],
-  },
-
-  theme: 'yun',
-
-  themeConfig: {
-    banner: {
-      enable: true,
-      title: 'neila',
+        ],
     },
-    
-    pages: [
-      {
-        name: '项目',
-        url: '/projects/',
-        icon: 'i-ri-todo-line',
-        color: 'black',
-      }
-      /*,
-      {
-        name: '喜欢的女孩子',
-        url: '/girls/',
-        icon: 'i-ri-women-line',
-        color: 'hotpink',
-      },*/
-    ],
 
-    footer: {
-      since: 2022,
-      beian: {
-        enable: false,
-        icp: '苏ICP备17038157号',
-      },
+    theme: 'yun',
+
+    themeConfig: {
+        banner: {
+            enable: true,
+            title: 'neila',
+        },
+
+        pages: [
+            {
+                name: '项目',
+                url: '/projects/',
+                icon: 'i-ri-todo-line',
+                color: 'black',
+            }
+            /*,
+            {
+              name: '喜欢的女孩子',
+              url: '/girls/',
+              icon: 'i-ri-women-line',
+              color: 'hotpink',
+            },*/
+        ],
+
+        footer: {
+            since: 2022,
+            beian: {
+                enable: false,
+                icp: '苏ICP备17038157号',
+            },
+        },
     },
-  },
 
-  unocss: { safelist },
+    unocss: { safelist },
 })
