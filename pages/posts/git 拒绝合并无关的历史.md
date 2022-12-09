@@ -2,6 +2,7 @@
 layout: post
 title: git 拒绝合并无关的历史
 date: 2022-12-09 02:49:39
+tags: 笔记
 ---
 
 ![人家只是一张图片而已，为什么要人家不能加载。。。](/imgs/git-allow-unrelated-histories.png)  

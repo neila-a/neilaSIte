@@ -2,11 +2,10 @@
 title: Hello, Valaxy!
 date: 2022-04-01
 updated: 2022-04-01
-categories: Valaxy 笔记
+categories: 搭建网站
 tags: 
   - 搭建网站
   - valaxy
-  - 笔记
 ---
 
 ## Valaxy
