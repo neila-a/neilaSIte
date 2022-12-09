@@ -3,7 +3,7 @@ import type { ThemeConfig } from 'valaxy-theme-yun';
 import { addonWaline } from 'valaxy-addon-waline';
 
 // add icons what you will need
-const safelist = [
+const safelist: string[] = [
     'i-ri-home-line',
 ];
 
@@ -26,7 +26,7 @@ export default defineConfig<ThemeConfig>({
     author: {
         name: 'neila',
         email: "neila@neila.ga",
-        link: "",
+        link: "https://neila.ga/",
         avatar: "https://avatars.githubusercontent.com/u/78797625?v=4"
     },
     description: 'neila的小破站，由于年久失修，现在已经被鉴定为3级危站。',
@@ -119,7 +119,7 @@ export default defineConfig<ThemeConfig>({
 
     sponsor: {
         enable: true,
-        title: '我很可爱，请给我钱！',
+        title: "就你小子不给我钱是吧！",
         methods: [/*
       {
         name: '支付宝',
@@ -175,5 +175,7 @@ export default defineConfig<ThemeConfig>({
         },
     },
 
-    unocss: { safelist },
+    unocss: {
+        safelist
+    },
 })
