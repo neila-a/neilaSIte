@@ -1,3 +1,6 @@
+---
+comment: true
+---
 # LifeTime-Countdown
 
 一个人生倒计时。

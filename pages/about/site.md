@@ -1,5 +1,6 @@
 ---
 title: 关于站点
+comment: true
 ---
 
 这个站点太破了（恼

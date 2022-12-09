@@ -1,5 +1,5 @@
 ---
 layout: archives
 nav: false
-comment: false
+comment: true
 ---

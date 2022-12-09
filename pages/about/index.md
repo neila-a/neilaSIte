@@ -1,5 +1,6 @@
 ---
 title: 关于Neila
+comment: true
 ---
 
 我是neila，  
