@@ -24,7 +24,8 @@ $ usermod -d /nouser-home -u 1001 nouser
 $ su nouser
 密码：
 $ cd ~
-$ ls
+$ pwd -P
+/nouser-home
 ```
 
 good，成功修改了用户主目录
