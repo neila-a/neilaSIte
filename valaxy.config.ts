@@ -22,14 +22,15 @@ export default defineConfig<ThemeConfig>({
         }),
     ],
     lang: 'zh-CN',
-    title: 'Neila的小破站',
+    title: 'Neila',
+    subtitle: "Neila的小破站",
     author: {
         name: 'Neila',
         email: "neila@neila.ga",
         link: "https://neila.ga/",
         avatar: "https://avatars.githubusercontent.com/u/78797625?v=4"
     },
-    description: 'Neila的小破站，由于年久失修，现在已经被鉴定为3级危站。',
+    description: '由于年久失修，现在已经被鉴定为3级危站。',
     social: [
         {
             name: 'RSS',
