@@ -146,7 +146,7 @@ export default defineConfig<ThemeConfig>({
     theme: 'yun',
 
     themeConfig: {
-        outlineTitle: "",
+        outlineTitle: "   ",
         banner: {
             enable: true,
             title: 'Neila',
