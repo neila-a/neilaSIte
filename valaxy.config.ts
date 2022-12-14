@@ -24,7 +24,6 @@ export default defineConfig<ThemeConfig>({
     lang: 'zh-CN',
     title: 'Neila',
     subtitle: "Neila的小破站",
-    outlineTitle: "",
     author: {
         name: 'Neila',
         email: "neila@neila.ga",
@@ -147,9 +146,10 @@ export default defineConfig<ThemeConfig>({
     theme: 'yun',
 
     themeConfig: {
+        outlineTitle: "",
         banner: {
             enable: true,
-            title: 'neila',
+            title: 'Neila',
         },
 
         pages: [
@@ -172,7 +172,7 @@ export default defineConfig<ThemeConfig>({
             since: 2022,
             beian: {
                 enable: false,
-                icp: '苏ICP备17038157号',
+                icp: '萌ICP备20222036号',
             },
         },
     },
