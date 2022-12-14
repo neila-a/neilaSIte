@@ -36,10 +36,11 @@ const router = useRouter()
         <hr m="y-2">
         <YunSidebarLinks />
         <br>
-        <iframe src="https://github.neila.ga/countdown.js/" id="lifetime-countdown">az</iframe>
     </div>
 
     <YunConfig />
+
+    <iframe src="https://github.neila.ga/countdown.js/" id="lifetime-countdown">az</iframe>
 </template>
 
 <style lang="scss">
