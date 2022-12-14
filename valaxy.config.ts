@@ -24,6 +24,7 @@ export default defineConfig<ThemeConfig>({
     lang: 'zh-CN',
     title: 'Neila',
     subtitle: "Neila的小破站",
+    outlineTitle: "",
     author: {
         name: 'Neila',
         email: "neila@neila.ga",
