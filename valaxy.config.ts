@@ -18,7 +18,7 @@ export default defineConfig<ThemeConfig>({
     // 设置 valaxy-addon-waline 配置项
     addons: [
         addonWaline({
-            serverURL: 'https://walineapi.neila.ga',
+            serverURL: 'https://walineapi.neila.vip',
         }),
     ],
     lang: 'zh-CN',
@@ -26,8 +26,8 @@ export default defineConfig<ThemeConfig>({
     subtitle: "Neila的小破站",
     author: {
         name: 'Neila',
-        email: "neila@neila.ga",
-        link: "https://neila.ga/",
+        email: "neila@neila.vip",
+        link: "https://neila.vip/",
         avatar: "https://avatars.githubusercontent.com/u/78797625?v=4"
     },
     description: '由于年久失修，现在已经被鉴定为3级危站。',
@@ -100,7 +100,7 @@ export default defineConfig<ThemeConfig>({
         },
         {
             name: 'E-Mail',
-            link: 'mailto:neila@neila.ga',
+            link: 'mailto:neila@neila.vip',
             icon: 'i-ri-mail-line',
             color: '#8E71C1',
         },
@@ -116,7 +116,7 @@ export default defineConfig<ThemeConfig>({
         enable: true,
     },
 
-    url: "https://neila.ga/",
+    url: "https://neila.vip/",
 
     sponsor: {
         enable: true,

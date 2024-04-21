@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://neila.ga/sitemap.xml
+Sitemap: https://neila.vip/sitemap.xml

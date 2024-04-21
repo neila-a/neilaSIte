@@ -40,7 +40,7 @@ const router = useRouter()
 
     <YunConfig />
 
-    <iframe src="https://github.neila.ga/countdown.js/" id="lifetime-countdown">az</iframe>
+    <iframe src="https://github.neila.vip/countdown.js/" id="lifetime-countdown">az</iframe>
 </template>
 
 <style lang="scss">
