@@ -61,13 +61,13 @@ export default defineConfig<ThemeConfig>({
       link: 'https://www.douban.com/people/yunyoujun/',
       icon: 'i-ri-douban-line',
       color: '#007722',
-    },
-    {
-      name: '网易云音乐',
-      link: 'https://music.163.com/#/user/home?id=247102977',
-      icon: 'i-ri-netease-cloud-music-line',
-      color: '#C20C0C',
     },*/
+        {
+            name: '网易云音乐',
+            link: 'https://music.163.com/#/user/home?id=8578138046',
+            icon: 'i-ri-netease-cloud-music-line',
+            color: '#C20C0C',
+        },
         {
             name: '知乎',
             link: 'https://www.zhihu.com/people/neila-76/',
@@ -85,13 +85,13 @@ export default defineConfig<ThemeConfig>({
       link: 'https://cdn.yunyoujun.cn/img/about/white-qrcode-and-search.jpg',
       icon: 'i-ri-wechat-2-line',
       color: '#1AAD19',
-    },
-    {
-      name: 'Twitter',
-      link: 'https://twitter.com/YunYouJun',
-      icon: 'i-ri-twitter-line',
-      color: '#1da1f2',
     },*/
+        {
+            name: 'Twitter',
+            link: 'https://twitter.com/NeilaRuan',
+            icon: 'i-ri-twitter-line',
+            color: '#1da1f2',
+        },
         {
             name: 'Telegram',
             link: 'https://t.me/neila',
