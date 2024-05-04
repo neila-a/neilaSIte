@@ -1,6 +1,7 @@
 ---
 title: 关于Neila
 comment: true
+slug: about neila
 ---
 
 我是neila，  

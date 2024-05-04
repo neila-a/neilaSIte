@@ -1,6 +1,7 @@
 ---
 title: 关于站点
 comment: true
+slug: about site
 ---
 
 这个站点太破了（恼

@@ -6,4 +6,5 @@ icon: i-ri-folder-2-line
 # You can custom title
 title: 分类
 comment: true
+slug: categories
 ---
