@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://neila.vip/</id>
+    <title>Neila</title>
+    <updated>2024-05-04T05:38:56.799Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>Neila</name>
+        <email>neila@neila.vip</email>
+        <uri>https://neila.vip/</uri>
+    </author>
+    <link rel="alternate" href="https://neila.vip/"/>
+    <link rel="self" href="https://neila.vip/feed.atom"/>
+    <subtitle>由于年久失修，现在已经被鉴定为3级危站。</subtitle>
+    <logo>https://avatars.githubusercontent.com/u/78797625?v=4</logo>
+    <icon>https://neila.vip/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2024 © Neila</rights>
+    <entry>
+        <title type="html"><![CDATA[git 拒绝合并无关的历史]]></title>
+        <id>https://neila.vip/posts/git-history</id>
+        <link href="https://neila.vip/posts/git-history"/>
+        <updated>2022-12-09T02:49:39.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://neila.vip/imgs/git-allow-unrelated-histories.png" alt="人家只是一张图片而已，为什么要人家不能加载。。。"><br>
+通常什么情况下会发生此问题？<br>
+假设主分支只有A项目，</p>
+]]></content>
+        <author>
+            <name>Neila</name>
+            <email>neila@neila.vip</email>
+            <uri>https://neila.vip/</uri>
+        </author>
+        <published>2024-05-04T05:38:31.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello World]]></title>
+        <id>https://neila.vip/posts/hello-world</id>
+        <link href="https://neila.vip/posts/hello-world"/>
+        <updated>2024-05-04T05:38:31.000Z</updated>
+        <content type="html"><![CDATA[<p>欢迎来到<a href="https://neila.ga/">neilas blog</a>! 这是我的第一篇文章。检查<a href="https://hexo.io/docs/">文件</a>更多信息。如果我在使用Hexo时遇到任何问题，</p>
+]]></content>
+        <author>
+            <name>Neila</name>
+            <email>neila@neila.vip</email>
+            <uri>https://neila.vip/</uri>
+        </author>
+        <published>2024-05-04T05:38:31.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[linux 修改用户主目录]]></title>
+        <id>https://neila.vip/posts/linux_changehome</id>
+        <link href="https://neila.vip/posts/linux_changehome"/>
+        <updated>2022-12-11T11:28:37.000Z</updated>
+        <content type="html"><![CDATA[<pre><code class="language-bash">usermod -d {新文件夹} -u {UID} {用户名}
+</code></pre>
+<p>例：</p>
+<pre><code class="language-bash">$ id nouser
+用户id=1001(nouser) 组id=1001(no</code></pre>
+]]></content>
+        <author>
+            <name>Neila</name>
+            <email>neila@neila.vip</email>
+            <uri>https://neila.vip/</uri>
+        </author>
+        <published>2024-05-04T05:38:31.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新域名]]></title>
+        <id>https://neila.vip/posts/new-domain</id>
+        <link href="https://neila.vip/posts/new-domain"/>
+        <updated>2024-04-21T02:10:46.000Z</updated>
+        <content type="html"><![CDATA[<p>震惊，Freenom服务商居然跑路，导致我的网站全部瘫痪。<br>
+在一年的深思熟虑之后，选择了在dynadot花费￥34购买neila.vip域名。<br>
+请各位把neila.ga直接替换为neila.vip！</p>
+]]></content>
+        <author>
+            <name>Neila</name>
+            <email>neila@neila.vip</email>
+            <uri>https://neila.vip/</uri>
+        </author>
+        <published>2024-05-04T05:38:31.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新的开始]]></title>
+        <id>https://neila.vip/posts/newstart</id>
+        <link href="https://neila.vip/posts/newstart"/>
+        <updated>2022-10-16T11:20:30.000Z</updated>
+        <content type="html"><![CDATA[<p>过了一年，终于想起来这个网站了（<br>
+最近会修缮这个危站的。<br>
+<s>以后不会写烂文了，类似'我的第二篇文章'，放心！</s></p>
+<h1>ToDo</h1>
+<ul>
+<li>[x] 搞个域名 完成时间：2022-10-14</li>
+</ul>
+]]></content>
+        <author>
+            <name>Neila</name>
+            <email>neila@neila.vip</email>
+            <uri>https://neila.vip/</uri>
+        </author>
+        <published>2024-05-04T05:38:31.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Freenom的使用]]></title>
+        <id>https://neila.vip/posts/use-freenom</id>
+        <link href="https://neila.vip/posts/use-freenom"/>
+        <updated>2021-09-01T20:44:54.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>Freenom是世界上唯一一家免费域名注册的地方<br>
+——官网</p>
+</blockquote>
+<h2>注册</h2>
+<p><a href="https://www.freenom.com/zh/index.html?lang=zh">这里！</a><br>
+请注意</p>
+]]></content>
+        <author>
+            <name>Neila</name>
+            <email>neila@neila.vip</email>
+            <uri>https://neila.vip/</uri>
+        </author>
+        <published>2024-05-04T05:38:31.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello, Valaxy!]]></title>
+        <id>https://neila.vip/posts/hello-valaxy</id>
+        <link href="https://neila.vip/posts/hello-valaxy"/>
+        <updated>2022-04-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>Valaxy</h2>
+<p>Write your first post!</p>
+<h2>Usage</h2>
+<p>Modify <code>valaxy.config.ts</code> to custom your blog.</p>
+]]></content>
+        <author>
+            <name>Neila</name>
+            <email>neila@neila.vip</email>
+            <uri>https://neila.vip/</uri>
+        </author>
+        <published>2022-04-01T00:00:00.000Z</published>
+    </entry>
+</feed>

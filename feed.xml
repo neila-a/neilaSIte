@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Neila</title>
+        <link>https://neila.vip/</link>
+        <description>由于年久失修，现在已经被鉴定为3级危站。</description>
+        <lastBuildDate>Sat, 04 May 2024 05:38:56 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>Neila</title>
+            <url>https://avatars.githubusercontent.com/u/78797625?v=4</url>
+            <link>https://neila.vip/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2024 © Neila</copyright>
+        <atom:link href="https://neila.vip/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[git 拒绝合并无关的历史]]></title>
+            <link>https://neila.vip/posts/git-history</link>
+            <guid>https://neila.vip/posts/git-history</guid>
+            <pubDate>Sat, 04 May 2024 05:38:31 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://neila.vip/imgs/git-allow-unrelated-histories.png" alt="人家只是一张图片而已，为什么要人家不能加载。。。"><br>
+通常什么情况下会发生此问题？<br>
+假设主分支只有A项目，</p>
+]]></content:encoded>
+            <author>neila@neila.vip (Neila)</author>
+        </item>
+        <item>
+            <title><![CDATA[Hello World]]></title>
+            <link>https://neila.vip/posts/hello-world</link>
+            <guid>https://neila.vip/posts/hello-world</guid>
+            <pubDate>Sat, 04 May 2024 05:38:31 GMT</pubDate>
+            <content:encoded><![CDATA[<p>欢迎来到<a href="https://neila.ga/">neilas blog</a>! 这是我的第一篇文章。检查<a href="https://hexo.io/docs/">文件</a>更多信息。如果我在使用Hexo时遇到任何问题，</p>
+]]></content:encoded>
+            <author>neila@neila.vip (Neila)</author>
+        </item>
+        <item>
+            <title><![CDATA[linux 修改用户主目录]]></title>
+            <link>https://neila.vip/posts/linux_changehome</link>
+            <guid>https://neila.vip/posts/linux_changehome</guid>
+            <pubDate>Sat, 04 May 2024 05:38:31 GMT</pubDate>
+            <content:encoded><![CDATA[<pre><code class="language-bash">usermod -d {新文件夹} -u {UID} {用户名}
+</code></pre>
+<p>例：</p>
+<pre><code class="language-bash">$ id nouser
+用户id=1001(nouser) 组id=1001(no</code></pre>
+]]></content:encoded>
+            <author>neila@neila.vip (Neila)</author>
+        </item>
+        <item>
+            <title><![CDATA[新域名]]></title>
+            <link>https://neila.vip/posts/new-domain</link>
+            <guid>https://neila.vip/posts/new-domain</guid>
+            <pubDate>Sat, 04 May 2024 05:38:31 GMT</pubDate>
+            <content:encoded><![CDATA[<p>震惊，Freenom服务商居然跑路，导致我的网站全部瘫痪。<br>
+在一年的深思熟虑之后，选择了在dynadot花费￥34购买neila.vip域名。<br>
+请各位把neila.ga直接替换为neila.vip！</p>
+]]></content:encoded>
+            <author>neila@neila.vip (Neila)</author>
+        </item>
+        <item>
+            <title><![CDATA[新的开始]]></title>
+            <link>https://neila.vip/posts/newstart</link>
+            <guid>https://neila.vip/posts/newstart</guid>
+            <pubDate>Sat, 04 May 2024 05:38:31 GMT</pubDate>
+            <content:encoded><![CDATA[<p>过了一年，终于想起来这个网站了（<br>
+最近会修缮这个危站的。<br>
+<s>以后不会写烂文了，类似'我的第二篇文章'，放心！</s></p>
+<h1>ToDo</h1>
+<ul>
+<li>[x] 搞个域名 完成时间：2022-10-14</li>
+</ul>
+]]></content:encoded>
+            <author>neila@neila.vip (Neila)</author>
+        </item>
+        <item>
+            <title><![CDATA[Freenom的使用]]></title>
+            <link>https://neila.vip/posts/use-freenom</link>
+            <guid>https://neila.vip/posts/use-freenom</guid>
+            <pubDate>Sat, 04 May 2024 05:38:31 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p>Freenom是世界上唯一一家免费域名注册的地方<br>
+——官网</p>
+</blockquote>
+<h2>注册</h2>
+<p><a href="https://www.freenom.com/zh/index.html?lang=zh">这里！</a><br>
+请注意</p>
+]]></content:encoded>
+            <author>neila@neila.vip (Neila)</author>
+        </item>
+        <item>
+            <title><![CDATA[Hello, Valaxy!]]></title>
+            <link>https://neila.vip/posts/hello-valaxy</link>
+            <guid>https://neila.vip/posts/hello-valaxy</guid>
+            <pubDate>Fri, 01 Apr 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Valaxy</h2>
+<p>Write your first post!</p>
+<h2>Usage</h2>
+<p>Modify <code>valaxy.config.ts</code> to custom your blog.</p>
+]]></content:encoded>
+            <author>neila@neila.vip (Neila)</author>
+        </item>
+    </channel>
+</rss>
